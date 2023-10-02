@@ -18,7 +18,7 @@ public class Test1 {
 		} else if ((score > 0) && (score < 60)) {
 			grade = 'F';
 		} else {
-			System.out.println("잘못된 점수입니다.");
+			System.out.println("잘못된 점수입니다..");
 		}
 
 		System.out.println("이름 : " + name + "\t점수 : " + score + "\t학점 : " + grade);
